@@ -1,0 +1,31 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+input,
+button,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+img {
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
